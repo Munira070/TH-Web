@@ -1,13 +1,20 @@
+<<<<<<< HEAD
 /* تنسيق عام للصفحة */
 body {
     font-family: "Poppins", Arial, sans-serif; /* خط أنيق */
     background-color: #f4f4f4; /* لون خلفية هادئ */
     color: #333; /* لون النص */
     text-align: center;
+=======
+/* ملف CSS لتنسيق الصفحة باستخدام Tailwind */
+body {
+    font-family: Arial, sans-serif;
+>>>>>>> 7050529 (laravel)
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
 /* تنسيق الصندوق الذي يحتوي على معلومات الاتصال */
 .contact-container {
     width: 50%;
@@ -57,3 +64,35 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+=======
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.bg-gray-50 {
+    background-color: #f9fafb;
+}
+
+.text-gray-800 {
+    color: #1f2937;
+}
+
+.text-gray-600 {
+    color: #4b5563;
+}
+
+>>>>>>> 7050529 (laravel)
